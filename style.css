@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.4;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: #b0adad; */
+}
+
+.section-1 {
+  margin-bottom: 50px;
+  margin-top: 30px;
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-section-1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 7%;
+}
+
+.heading-section-1 {
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.para-section-1 {
+  margin-bottom: 30px;
+}
+
+.btn-section-1 {
+  display: none;
+  border: 0;
+  background-color: #316a44;
+  /* margin-left: 30px; */
+  padding: 10px 20px;
+  border-radius: 25%;
+}
+
+.shape {
+  background-color: rgb(78, 131, 61);
+  display: inline-block;
+  padding: 16px 32px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.shape:hover {
+  background-color: #398452;
+}
+
+.section-2 {
+  margin-bottom: 50px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.head-section-2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.design-section-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.design-1-section-2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.svg-section-2 {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.svg-icon-section-2 {
+  stroke: #316a44;
+}
+
+.para-design-1-section-2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.para2-design-1-section-2 {
+  color: #333;
+}
+
+.green-box-section {
+  background-color: #34C759; /* green background color */
+  padding: 20px;
+  display: flex;
+}
+
+.green-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: left;
+}
+
+.green-box-image {
+  width: 30%;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.green-box-text {
+  width: 70%;
+  padding: 20px;
+  order: 2;
+  margin-left: 20px; /* Ensures the text is placed after the image */
+}
+
+.grid-section {
+  margin-top: 50px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-item {
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.size-6 {
+  width: 25px;
+  height: 25px;
+}
